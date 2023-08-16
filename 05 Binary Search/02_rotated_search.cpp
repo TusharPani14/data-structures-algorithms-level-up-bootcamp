@@ -19,7 +19,7 @@ int rotated_search(vector<int> a,int key) {
 		//2 cases
 		if(a[s]<=a[mid]){
 			//left
-			if(key>=a[s] and key<=a[mid]){
+			if(key>=a[s] && key<=a[mid]){
 				e = mid - 1;
 			}
 			else{
@@ -30,7 +30,7 @@ int rotated_search(vector<int> a,int key) {
 		else{
 			//right
 
-			if(key>=a[mid] and key<=a[e]){
+			if(key>=a[mid] && key<=a[e]){
 				s = mid + 1;
 			}
 			else{
